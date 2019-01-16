@@ -4,7 +4,7 @@
 	<divider>github 地址 </divider>
 	
 	<div class="font12 pad10">
-		<a class="color888" href="https://github.com/bluefox1688/vue-cli-multi-page" target="_blank">https://github.com/bluefox1688/vue-cli-multi-page</a>
+		<a class="color888" href="https://github.com/bluefox1688/vue-cli-multi-page" target="_blank">https://github.com/luoxiapeng/vue-mutil-page</a>
 	</div>
 	
     <div>

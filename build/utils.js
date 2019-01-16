@@ -4,6 +4,14 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var glob = require('glob');
 
 
+/**加这个px转rem */
+const px2remLoader = {
+    loader: 'px2rem-loader',
+    options: {
+        remUnit: 37.5 //设计稿宽度/10
+    }
+}
+
 exports.assetsPath = function (_path) {
   var assetsSubDirectory = process.env.NODE_ENV === 'production'
     ? config.build.assetsSubDirectory
@@ -25,7 +33,8 @@ exports.cssLoaders = function (options) {
 
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
-    var loaders = [cssLoader]
+      /**加px2remLoader*/
+    var loaders = [cssLoader,px2remLoader]
     if (loader) {
       loaders.push({
         loader: loader + '-loader',

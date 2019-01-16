@@ -1,7 +1,7 @@
 
 import Vue from 'vue'
 import App from './ajaxApp'
-
+import 'lib-flexible'
 
 
 new Vue({

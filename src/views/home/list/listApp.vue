@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-	
+	<XHeader :left-options={showBack:false}>vux UI 展示</XHeader>
 	<divider>github 地址 </divider>
 	
 	<div class="font12 pad10">
@@ -47,7 +47,7 @@
 
 import Lib from 'assets/js/Lib';
 
-import { Cell,Group,Divider } from 'vux'
+import { Cell,Group,Divider,XHeader} from 'vux'
 
 
 export default {
@@ -70,7 +70,7 @@ export default {
     }
   },
   components: {
-	Cell,Group,Divider	
+	Cell,Group,Divider,XHeader
   },
   //实例初始化最之前，无法获取到data里的数据
   beforeCreate(){

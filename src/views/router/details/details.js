@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+import 'lib-flexible'
 import Add from './addApp'
 import List from './listApp'
 

@@ -1,7 +1,7 @@
 
 import Vue from 'vue'
 import App from './vuefilterApp'
-
+import 'lib-flexible'
 
 
 new Vue({

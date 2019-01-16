@@ -21,11 +21,7 @@
 demo地址：
 http://v.lanchenglv.com/demo/vue2-cli-vux2-multe-page/views/home/list.html
 
-github地址：
-https://github.com/bluefox1688/vue-cli-multi-page
-
-** 此版仅支持vu2.0，如果需要vue1.0多页面脚手架，请访问分支 **
-https://github.com/bluefox1688/vue-cli-multi-page/tree/master 
+** 此版仅支持vu2.0
 
 ## 2.0的主要功能
 
@@ -172,5 +168,3 @@ Lib.C.appname;  #蓝橙绿
 
 有问题随时Issues哈！
 
-## 文章首发地址：
-http://lanchenglv.com/article/2017/0409/vue2-webpack2-cli-vux2-multe-page.html

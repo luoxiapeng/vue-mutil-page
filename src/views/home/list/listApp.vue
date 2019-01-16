@@ -4,7 +4,7 @@
 	<divider>github 地址 </divider>
 	
 	<div class="font12 pad10">
-		<a class="color888" href="https://github.com/bluefox1688/vue-cli-multi-page" target="_blank">https://github.com/luoxiapeng/vue-mutil-page </a>
+		<a class="color888" href="https://github.com/bluefox1688/vue-cli-multi-page" target="_blank">https://github.com/luoxiapeng/vue-mutil-page  </a>
 	</div>
 	
     <div>
@@ -13,7 +13,7 @@
 			<cell v-for="el in list" :key="el.id" :title="el.name" value="" is-link :link="el.url"></cell>
 		</group>
 		<div class="note">
-			<p>这里仅展示几个VUE UI的demo，更多组件demo请访问vux UI官网，官网地址：  <a href="https://vux.li" target="_blank">https://vux.li</a> </p>
+			<p>这里仅展示几个VUE UI的demo，更多组件demo请访问vux UI官网，官网地址：    <a href="https://vux.li" target="_blank">https://vux.li</a> </p>
 		</div>
 	</div>
 	<div>
